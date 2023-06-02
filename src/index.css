@@ -18,11 +18,19 @@
     height: 100%;
 }
 
-.form-section {
+section{
     display: flex;
-    padding: 80px;
+}
+.form-section {
+    padding:30px 0;
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    margin:auto;
+    height:50%;
 }
 .form {
+    max-width: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -30,7 +38,7 @@
 
 .form-inputs {
     display: flex;
-    width: 75vw;
+    max-width: 100%;
     gap: 15px;
     margin-bottom: 10px;
 }
@@ -46,6 +54,7 @@
 }
 
 .form-btn {
+    max-width: 100%;
     padding: 10px;
     font-size: 16px;
     font-weight: 700;
@@ -54,4 +63,54 @@
     border:none;
     color:white;
     cursor: pointer;
+}
+
+
+.meme{
+    position: relative;
+    display: flex;
+    margin-top:25px;
+}
+
+.meme > h2 {
+    position: absolute;
+}
+
+.meme-image{
+    max-width: 100%;
+    margin:auto;
+    border-radius: 2%;
+}
+
+.meme-text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
 }
