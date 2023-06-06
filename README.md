@@ -11,6 +11,12 @@
 ### Screenshot
 
 ![](./public/ss1.png)
+<p align = "center">
+Mobile view:
+</P>
+<p align = "center">
+<img src = "./public/ss2.png" width = "200px">
+</p>
 
 ### Links
 - Live Site URL: [Live site URL](https://meme-generator07.netlify.app/)
