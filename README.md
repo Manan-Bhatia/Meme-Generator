@@ -10,7 +10,7 @@
 
 ### Screenshot
 
-![](./ss1.png)
+![](./public/ss1.png)
 
 ### Links
 - Live Site URL: [Live site URL](https://meme-generator07.netlify.app/)
