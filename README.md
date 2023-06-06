@@ -35,6 +35,7 @@ Mobile view:
 ### Useful resources
 
 - [Scrimba Learn React](https://scrimba.com/learn/learnreact) - I recently learned basics of react from this Scrimba course and it was amazing learning experience. The interactive tutorials helped me learn very fast and easily.
+- [API](https://api.imgflip.com/get_memes) - Used imgflip's API to get random meme images.
 
 ## Author
 - Twitter - [@MananBhatia02](https://twitter.com/MananBhatia02)
